@@ -9,7 +9,7 @@ import users from './userdata';
 function App() {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedUser, setSelectedUser] = useState(null);
-  const [dataList, setDataList] = useState([]); // Add dataList state
+  const [dataList, setDataList] = useState([]); 
 
   const filteredUsers = users.filter(user =>
     user.city.toLowerCase().includes(searchQuery.toLowerCase()) ||
