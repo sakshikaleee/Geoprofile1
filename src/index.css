@@ -1,5 +1,9 @@
 /* Navbar styles */
 .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 98%; /* Ensures navbar spans the entire width */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -7,9 +11,10 @@
   background-color: transparent;
   color: #f3eeee;
   z-index: 1000;
-  backdrop-filter: blur(1000px);
+  backdrop-filter: blur(100px);
   -webkit-backdrop-filter: blur(1000px);
 }
+
 
 /* Style for the app name */
 .app-name {
