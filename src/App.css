@@ -1,0 +1,132 @@
+/* User profile styles */
+.user-profile {
+  margin-bottom: 50px;
+  padding: 1.0rem;
+  background-color: #011f43;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+}
+
+/* Profile card styles */
+.profile {
+  flex: 0 0 calc(33.33% - 40px);
+  margin-right: 40px;
+  margin-bottom: 50px;
+  padding: 1.5rem;
+  background-color: #d8e5ee;
+  border-radius: 14px;
+  border: 2px solid #000000;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.profile-photo img {
+  width: 400px;
+  height: 300px;
+  align-items: center;
+  border-radius: 10%;
+  border-color: black;
+  margin-bottom: 1.5rem;
+}
+
+.profile-info {
+  text-align: center;
+  color: #090909; /* Change the color of user information text */
+}
+
+.profile-info address {
+  font-style: normal;
+}
+
+.profile-info button {
+  margin-top: auto;
+  background-color: #070219;
+  color: #f0f0f0;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+.profile-info button:hover {
+  align-items: center;
+  background-color: #1e1052;
+}
+
+/* Admin panel styles */
+.admin-panel {
+  padding: 1.5rem;
+  background-color: #f9f9f9;
+  border-radius: 14px;
+  border: 2px solid #000000;
+}
+
+.admin-panel form {
+  margin-bottom: 1rem;
+}
+
+.admin-panel form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.admin-panel form input[type="text"] {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.admin-panel form button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+.admin-panel form button:hover {
+  background-color: #0056b3;
+}
+
+.admin-panel h1 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #000000;
+}
+
+.admin-panel h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  color: #000000;
+}
+
+.admin-panel ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.admin-panel ul li {
+  margin-bottom: 0.5rem;
+}
+
+.admin-panel ul li button {
+  padding: 0.25rem 0.5rem;
+  background-color: #dc3545;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+.admin-panel ul li button:hover {
+  background-color: #c82333;
+}
