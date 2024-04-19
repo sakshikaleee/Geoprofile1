@@ -1,88 +1,93 @@
 .admin-panel {
-    width: 600px;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    background-color: #f9f9f9;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .admin-panel-title {
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  
-  .form-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
-  .form-label {
-    margin-bottom: 10px;
-  }
-  
-  .form-input {
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  .form-button {
-    padding: 8px 12px;
-    border: none;
-    border-radius: 4px;
-    background-color: #007bff;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  .user-list-title {
-    margin-bottom: 10px;
-  }
-  
-  .user-list-container {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .user-list-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 5px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  .user-info {
-    flex-grow: 1;
-  }
-  
-  .user-buttons {
-    display: flex;
-    align-items: center;
-  }
-  
-  .user-delete-button,
-  .user-edit-button {
-    padding: 6px 10px;
-    margin-left: 5px;
-    border: none;
-    border-radius: 4px;
-    background-color: #dc3545;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  .user-edit-button {
-    background-color: #ffc107;
-  }
+  width: 299%;
+  margin: auto;
+  padding: 20px;
+  border: 20px solid skyblue;
+  border-radius: 8px;
+  background-color: rgba(249, 249, 249, 0.8); /* Adjust the alpha channel as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+}
+
+
+
+.admin-panel-title {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.form-container {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.form-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.user-list {
+  margin-bottom: 20px;
+}
+
+.user-list-title {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.user-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.user-info {
+  flex-grow: 1;
+  color: #333;
+}
+
+.user-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.user-delete-button,
+.user-edit-button {
+  padding: 6px 10px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.user-delete-button {
+  background-color: #dc3545;
+}
+
+.user-edit-button {
+  background-color: #ffc107;
+}
+
