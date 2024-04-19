@@ -2,7 +2,7 @@
 .user-profile {
   margin-bottom: 50px;
   padding: 1.0rem;
-  background-color: #011f43;
+  background-color: #ffffff;
   border-radius: 14px;
   display: flex;
   flex-direction: column;
@@ -16,9 +16,8 @@
   margin-right: 40px;
   margin-bottom: 50px;
   padding: 1.5rem;
-  background-color: #d8e5ee;
+  background-color: rgba(249, 249, 249, 0.151);
   border-radius: 14px;
-  border: 2px solid #000000;
   display: inline-flex;
   flex-direction: column;
 }
